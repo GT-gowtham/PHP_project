@@ -1,0 +1,60 @@
+body {
+    background-image: url('tiled-floor-background.jpg');
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left, .right {
+    width: 48%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button, input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #45a049;
+}
